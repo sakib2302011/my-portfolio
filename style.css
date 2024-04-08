@@ -1,0 +1,42 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#name {
+    color: darkcyan;
+}
+
+section {
+    display: flex;
+}
+
+.text {
+    width: 45%;
+    padding-left: 5%;
+    padding-top: 6%;
+}
+
+.photo {
+    width: 65%;
+    margin: 0px 5px 10px 0px;
+    padding-bottom: 5%;
+}
+
+.photo img {
+    width: 90%;
+
+}
+
+.HireButton {
+    text-decoration: none;
+    background-color: coral;
+    padding: 3px 13px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    background-image: linear-gradient(tomato, coral);
+}
