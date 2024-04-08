@@ -11,14 +11,16 @@ h1 {
     color: coral;
 }
 
-section {
+.page {
     display: flex;
+    margin-bottom: 20%;
 }
 
 .text {
     width: 45%;
     padding-left: 5%;
     padding-top: 6%;
+    text-align: justify;
 }
 
 .photo {
@@ -32,12 +34,26 @@ section {
 
 }
 
-.HireButton {
+.link-button {
     text-decoration: none;
-    background-color: coral;
     padding: 3px 13px;
     color: white;
     border-radius: 5px;
     font-weight: 600;
     background-image: linear-gradient(tomato, coral);
+}
+
+#goal {
+    margin-top: 6%;
+    margin-right: 5%;
+
+}
+
+.cv {
+    text-decoration: none;
+    padding: 3px 13px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    background-image: linear-gradient(darkblue, blue);
 }
