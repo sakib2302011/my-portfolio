@@ -7,13 +7,29 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
 #name {
     color: coral;
 }
 
 .page {
     display: flex;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .text {
@@ -56,4 +72,44 @@ h1 {
     border-radius: 5px;
     font-weight: 600;
     background-image: linear-gradient(darkblue, blue);
+}
+
+#detail {
+    display: flex;
+}
+
+.single-line {
+    width: 50%;
+    margin-left: 200px;
+}
+
+.orange-color {
+    color: coral;
+}
+
+.blue-color {
+    color: darkblue;
+}
+
+#personal-information {
+    display: flex;
+}
+
+.make-box {
+    width: 30%;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#versity {
+    border-left: 5px solid coral;
+}
+
+#work {
+    border-left: 5px solid darkblue;
 }
